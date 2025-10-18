@@ -95,7 +95,7 @@ const Navbar = () => {
                 key={item.name}
                 href={item.href}
                 whileHover={{ x: 10 }}
-                className="block py-2 text-gray-800 hover:text-accent font-medium transition-colors"
+                className="block py-2 text-white hover:text-accent font-medium transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 {item.name}
